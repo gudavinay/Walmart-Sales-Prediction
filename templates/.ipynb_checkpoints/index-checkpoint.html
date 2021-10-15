@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Walmart Sales Prediction</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="icon" type="image/png" href="./static/images/walmartIcon.png">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+ <div class="login">
+	<h1>Walmart Sales Prediction</h1>
+  
+
+    <form method="post">
+      
+      <div class="row">
+      <div class="col-sm-6">
+        
+        <label for="store">Store:</label>
+    	  <input type="text" name="store" placeholder="Store">
+
+        <label for="dept">Department:</label>
+        <input type="text" name="dept" placeholder="Dept">
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+
+      </div>
+
+      <div class="col-sm-6">
+
+        <label for="fuelPrice">Fuel Price:</label>
+        <input type="text" id="fuelPrice" name="fuelPrice" placeholder="Fuel Price">
+
+        <label for="temp">Temperature:</label>
+        <input type="text" id="temp" name="temp" placeholder="Temperature">
+
+        <label for="unemployment">Unemployment:</label>
+        <input type="text" id="unemployment" name="unemployment" placeholder="Unemployment">
+
+      </div>
+    <div class="col-sm-8">
+      <label for="isholiday">IsHoliday:</label>
+      <input class="form-check-input" type="radio" name="yes" id="yes">
+      <label class="form-check-label" for="yes"> Yes </label>
+      <input class="form-check-input" type="radio" name="no" id="no">
+      <label class="form-check-label" for="no"> No </label>
+    </div>
+    </div>
+      <button type="submit" class="btn btn-primary btn-block btn-large" style="width: 25%; margin: auto; margin-top: 5%;">Predict</button>
+
+    </form>
+   
+   </div>
+
+
+</body>
+</html>
