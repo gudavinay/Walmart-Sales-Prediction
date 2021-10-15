@@ -1,11 +1,4 @@
-# Team 6 - Walmart Sales Prediction
-
-Members:
-
-- Saketh Reddy Banda (014843881)
-- Vinay Guda (015255123)
-- Shalaka Bodke (015357069)
-- Nikhil Raj Karlapudi (014668121)
+Walmart Sales Prediction
 
 Dataset:
 Walmart Recruiting Store Sales
